@@ -1,7 +1,7 @@
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #f4f6f8;
-    color: #2c2c2c;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #232222;
     margin: 0;
     padding: 40px 20px;
     line-height: 1.6;
@@ -9,7 +9,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #1a3c5e;
+    color: #650d26;
     font-size: 2.2rem;
     margin-bottom: 20px;
 }
@@ -21,48 +21,30 @@ p {
     text-align: justify;
 }
 
-#skills {
-    max-width: 700px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 1px solid #d9dee2;
-    border-radius: 8px;
-    padding: 20px 30px;
-}
-
-#skills h2 {
-    color: #1a3c5e;
-    border-bottom: 2px solid #1a3c5e;
-    padding-bottom: 8px;
-}
-
-#skills ul {
-    padding-left: 20px;
-}
-
-#skills li {
-    margin-bottom: 8px;
-}
-
+#skills,
 #about-me {
     max-width: 700px;
-    margin: 20px auto 0 auto;
+    margin: 0 auto 30px auto;
     background-color: #ffffff;
-    border: 1px solid #d9dee2;
+    border: 1px solid #e5d3d8;
     border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(101, 13, 38, 0.08);
     padding: 20px 30px;
 }
 
+#skills h2,
 #about-me h2 {
-    color: #1a3c5e;
-    border-bottom: 2px solid #1a3c5e;
+    color: #650d26;
+    border-bottom: 2px solid #650d26;
     padding-bottom: 8px;
 }
 
+#skills ul,
 #about-me ul {
     padding-left: 20px;
 }
 
+#skills li,
 #about-me li {
     margin-bottom: 8px;
 }
